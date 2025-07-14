@@ -11,11 +11,9 @@
   "bugs": "https://github.com/jahed/jsonl/issues",
   "funding": "https://jahed.dev/donate",
   "keywords": [
-    "firebase",
-    "rest",
-    "http",
-    "websockets",
-    "api"
+    "json",
+    "jsonl",
+    "stream"
   ],
   "type": "module",
   "main": "lib/index.js",
