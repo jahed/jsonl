@@ -1,0 +1,37 @@
+{
+  "name": "@jahed/jsonl",
+  "version": "0.0.1",
+  "description": "JSON Lines serialising and deserialising.",
+  "author": "Jahed Ahmed",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahed/jsonl.git"
+  },
+  "bugs": "https://github.com/jahed/jsonl/issues",
+  "funding": "https://jahed.dev/donate",
+  "keywords": [
+    "firebase",
+    "rest",
+    "http",
+    "websockets",
+    "api"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": "./lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node-ts": "23.6.1",
+    "@tsconfig/node22": "^22.0.2",
+    "typescript": "5.8.x"
+  }
+}
